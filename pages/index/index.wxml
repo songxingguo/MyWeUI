@@ -1,0 +1,57 @@
+<!--index.wxml-->
+
+<!-- 位置排列  -->
+<!-- 居左  -->
+<view class="box flex-start">
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+</view>
+
+<!-- 居中 -->
+<view class="box flex-center">
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+</view>
+
+<!-- 居右 -->
+<view class="box flex-end">
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+</view>
+
+<!--  分布排列  -->
+
+<!-- 沿着水平方向均匀分布，子容器和父容器之间的距离是子容器之间距离的一半。 -->
+<view class="box flex-around">
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+</view>
+
+<!-- 沿着水平方均匀分布，首尾两端的子容器和父容器相切  -->
+<view class="box flex-between">
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+  <view class="item"></view>
+</view>
+
+
+<view class="container">
+    <view class="item content1">
+      <view class="content-item"></view>
+      <view class="content-item"></view>
+    </view>
+    <view class="item content2">
+         <view class="content-item"></view>
+    </view>
+    <view class="item"></view>
+    <view class="item"></view>
+</view> 

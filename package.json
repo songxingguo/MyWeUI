@@ -1,0 +1,23 @@
+{
+  "name": "myweui",
+  "version": "1.0.0",
+  "description": "- 小程序 DEMO - 小程序练兵场 - 小程序 UI 框架实践",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songxingguo/MyWeUI.git"
+  },
+  "author": "songxinggguo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songxingguo/MyWeUI/issues"
+  },
+  "homepage": "https://github.com/songxingguo/MyWeUI#readme"
+}
