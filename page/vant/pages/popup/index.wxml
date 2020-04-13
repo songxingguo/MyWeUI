@@ -1,0 +1,8 @@
+<view>
+  <van-popup show="{{ show }}" bind:close="onClose">内容</van-popup>
+  <van-button type="primary" bind:click="showPopup">按钮</van-button>
+  <view wx:for="{{list}}"
+        wx:key="index">
+    <view style="height: 30px">文本</view>
+  </view>
+</view>
